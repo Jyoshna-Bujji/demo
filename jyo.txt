@@ -1,0 +1,3 @@
+Jyoshna installed JAVA21
+GIT 21
+Jenkins
