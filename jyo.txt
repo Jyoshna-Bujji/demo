@@ -1,4 +1,18 @@
-Jyoshna installed JAVA21
-GIT 21
-Jenkins
-trying to push
+AWS Placement groups:
+
+Placement groups control how EC2 instances are placed on underlying hardware to optimize networking and availability.
+
+There are three types:
+
+Cluster Placement Group:
+Instances are placed physically close in a single Availability Zone for low network latency and high throughput. Ideal for tightly coupled workloads like HPC and big data. Limited fault tolerance because all instances share the same hardware rack.
+
+Spread Placement Group:
+Instances are spread across distinct hardware racks, minimizing the risk of correlated hardware failures. Suitable for critical applications requiring high availability. Can span multiple Availability Zones, but limits the number of instances per group.
+
+Partition Placement Group:
+Instances are divided into partitions, each isolated on different racks. Helps distribute large-scale distributed applications like Hadoop or Cassandra across multiple partitions for fault isolation. Can span multiple Availability Zones.
+
+You must launch instances directly into a placement group; you cannot move running instances into one.
+
+Choose the placement group type based on your workload’s need for network performance and fault tolerance.
