@@ -1,0 +1,27 @@
+Devops:
+  DevOps is a set of practices and cultural philosophies that aim to bridge the gap between software development (Dev) and IT operations (Ops). 
+It focuses on automating manual processes, improving collaboration, and ensuring continuous integration and delivery (CI/CD)., quality, monitoring"
+ Collaboration, automation, CI/CD, Infrastructure as Code (IaC), monitoring, and continuous feedback
+
+
+Devops is a cultue process of improving the application delivery by ensuring that there is proper automation in place ,Continous 
+Monitoring/Observability, qualit maintainedy, Testing
+
+Why Devops?
+  Example dev writes the code for an application and and client will use that application.
+When devops was not evolved . Dev have to share the code to central location--> system admin will create server and tester would test it.
+Build and release engineer would promote app to prod or staging/pre-prod
+Simply.
+Dev -- writes the code and share the code to central location
+sys admin --> creates server(No cloud at this time of before 10years) and install the application 
+BRE(Build release engineer) --> he deploys the app on to the server
+Server Admin --> will create the app server
+
+
+How to introduce as a devops engineer
+working as devops engineer from past 4 years.
+before that what wa syour exp
+
+fresher --> mention some exp which yiu worked and memtined your enthusiatic to learn devops
+
+
